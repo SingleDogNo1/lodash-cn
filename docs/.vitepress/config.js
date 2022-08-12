@@ -1,4 +1,38 @@
-import { menu } from './helper'
+// import { menu } from './helper'
+
+function genArrayMenu() {
+  return [
+    {
+      text: '数组操作',
+      items: [
+        {
+          text: 'chunk -- 数组分块',
+          link: '/Array/chunk'
+        },
+        {
+          text: 'compact -- 过滤假值',
+          link: '/Array/compact'
+        }
+      ]
+    }
+  ]
+}
+
+function genCollectionMenu() {
+  return [
+    {
+      text: '集合操作',
+      items: [
+        {
+          text: 'countBy',
+          link: '/Collection/countBy'
+        }
+      ]
+    }
+  ]
+}
+
+const menu = [...genArrayMenu(), ...genCollectionMenu()]
 
 export default {
   title: 'Lodash',
@@ -10,11 +44,11 @@ export default {
     socialLinks: [
       {
         icon: 'github',
-        link: 'https://github.com/lost-dream/icmes-web'
+        link: 'https://github.com/lost-dream/lodash-cn'
       }
     ],
     editLink: {
-      pattern: 'https://github.com/lost-dream/icmes-web/edit/main/docs/src/:path' // github
+      pattern: 'https://github.com/lost-dream/lodash-cn/edit/main/docs/:path'
     },
     nav: menu,
     sidebar: {

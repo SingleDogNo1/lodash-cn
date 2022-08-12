@@ -4,8 +4,12 @@ export function genArrayMenu() {
       text: 'Array(数组操作)',
       items: [
         {
-          text: 'chunk',
+          text: 'chunk(数组分块)',
           link: '/Array/chunk'
+        },
+        {
+          text: 'compact(过滤假值)',
+          link: '/Array/compact'
         }
       ]
     }

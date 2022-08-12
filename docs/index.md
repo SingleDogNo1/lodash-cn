@@ -11,6 +11,7 @@ hero:
       text: 开始使用
       link: /Array/chunk
     - theme: alt
-      text: View on GitHub
-      link: https://github.com/vuejs/vitepress
+      text: GitHub
+      link: https://github.com/lost-dream/lodash-cn
+  tagline: hello, world
 ---
