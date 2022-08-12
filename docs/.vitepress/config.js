@@ -16,6 +16,10 @@ function genArrayMenu() {
         {
           text: 'concat -- 连接',
           link: '/Array/concat'
+        },
+        {
+          text: 'difference -- 过滤值',
+          link: '/Array/difference'
         }
       ]
     }
