@@ -12,6 +12,10 @@ function genArrayMenu() {
         {
           text: 'compact -- 过滤假值',
           link: '/Array/compact'
+        },
+        {
+          text: 'concat -- 连接',
+          link: '/Array/concat'
         }
       ]
     }
@@ -24,7 +28,7 @@ function genCollectionMenu() {
       text: '集合操作',
       items: [
         {
-          text: 'countBy',
+          text: 'countBy -- 获取迭代处理中 key 出现的次数',
           link: '/Collection/countBy'
         }
       ]
