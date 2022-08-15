@@ -1,14 +1,14 @@
-# dropRightWhile
+# dropWhile
 
 ::: tip 语法
 
-_.dropRightWhile(array, [predicate=_.identity])
+_.dropWhile(array, [predicate=_.identity])
 
 :::
 
 ## 描述
 
-创建一个切片数组，去除array中从结尾开始到迭代器返回假值结束的部分。predicate 会传入3个参数： (value, index, array)。
+创建一个切片数组，去除array中从开头到迭代器返回假值结束的部分。predicate 会传入3个参数： (value, index, array)。
 
 ## 参数
 
@@ -25,23 +25,23 @@ _.dropRightWhile(array, [predicate=_.identity])
 
 ```js
 var users = [
-  { 'user': 'barney',  'active': true },
+  { 'user': 'barney',  'active': false },
   { 'user': 'fred',    'active': false },
-  { 'user': 'pebbles', 'active': false }
+  { 'user': 'pebbles', 'active': true }
 ];
 
-_.dropRightWhile(users, function(o) { return !o.active; });
-// => [ { user: 'barney', active: true } ]
+_.dropWhile(users, function(o) { return !o.active; });
+// => [ { user: 'pebbles', active: true } ]
 
 // The `_.matches` iteratee shorthand.
-_.dropRightWhile(users, { 'user': 'pebbles', 'active': false });
-// => [ { user: 'barney', active: true },{ user: 'fred', active: false } ]
+_.dropWhile(users, { 'user': 'barney', 'active': false });
+// => [ { user: 'fred', active: false },{ user: 'pebbles', active: true } ]
 
 // The `_.matchesProperty` iteratee shorthand.
-_.dropRightWhile(users, ['active', false]);
-// => [ { user: 'barney', active: true } ]
+_.dropWhile(users, ['active', false]);
+// => [ { user: 'pebbles', active: true } ]
 
 // The `_.property` iteratee shorthand.
-_.dropRightWhile(users, 'active');
+_.dropWhile(users, 'active');
 // => [ { user: 'barney', active: true },{ user: 'fred', active: false },{ user: 'pebbles', active: false } ]
 ```

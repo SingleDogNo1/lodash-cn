@@ -40,6 +40,10 @@ function genArrayMenu() {
         {
           text: 'dropRightWhile -- 根据条件删除末尾的元素',
           link: '/Array/dropRightWhile'
+        },
+        {
+          text: 'dropWhile -- 根据条件删除开头的元素',
+          link: '/Array/dropWhile'
         }
       ]
     }
