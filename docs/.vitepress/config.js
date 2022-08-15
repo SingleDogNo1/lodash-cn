@@ -72,6 +72,10 @@ function genArrayMenu() {
         {
           text: 'flattenDepth -- 减少 depth 层嵌套',
           link: '/Array/flattenDepth'
+        },
+        {
+          text: 'fromPairs -- 返回键值对对象',
+          link: '/Array/fromPairs'
         }
       ]
     }
