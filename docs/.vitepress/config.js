@@ -60,6 +60,18 @@ function genArrayMenu() {
         {
           text: 'first -> head -- 获取第一个元素',
           link: '/Array/first'
+        },
+        {
+          text: 'flatten -- 减少一层嵌套',
+          link: '/Array/flatten'
+        },
+        {
+          text: 'flattenDeep -- 降为一维数组',
+          link: '/Array/flattenDeep'
+        },
+        {
+          text: 'flattenDepth -- 减少 depth 层嵌套',
+          link: '/Array/flattenDepth'
         }
       ]
     }
