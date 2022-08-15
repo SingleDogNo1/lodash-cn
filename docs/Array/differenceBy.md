@@ -8,7 +8,7 @@ _.differenceBy(array, [values], [iteratee=_.identity])
 
 ## 描述
 
-这个方法类似`_.difference` ，除了它接受一个 iteratee （注：迭代器）， 调用array 和 values 中的每个元素以产生比较的标准。iteratee 会调用一个参数：(value)，返回的值作为比较值）
+这个方法类似[`_.difference`](/Array/difference) ，除了它接受一个 iteratee （注：迭代器）， 调用array 和 values 中的每个元素以产生比较的标准。iteratee 会调用一个参数：(value)，返回的值作为比较值）
 
 ## 参数
 
