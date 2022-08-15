@@ -36,6 +36,10 @@ function genArrayMenu() {
         {
           text: 'dropRight -- 删除末尾的元素',
           link: '/Array/dropRight'
+        },
+        {
+          text: 'dropRightWhile -- 根据条件删除末尾的元素',
+          link: '/Array/dropRightWhile'
         }
       ]
     }
@@ -59,6 +63,7 @@ function genCollectionMenu() {
 const menu = [...genArrayMenu(), ...genCollectionMenu()]
 
 export default {
+  outDir: '../dist',
   title: 'Lodash',
   description: 'Lodash 中文文档',
   head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
