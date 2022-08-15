@@ -89,6 +89,18 @@ function genArrayMenu() {
         {
           text: 'initial -- 去除最后一个元素',
           link: '/Array/initial'
+        },
+        {
+          text: 'intersection -- 数组交集',
+          link: '/Array/intersection'
+        },
+        {
+          text: 'intersectionBy -- 数组交集',
+          link: '/Array/intersectionBy'
+        },
+        {
+          text: 'intersectionWith -- 数组交集',
+          link: '/Array/intersectionWith'
         }
       ]
     }

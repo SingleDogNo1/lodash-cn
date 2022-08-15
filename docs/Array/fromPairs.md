@@ -9,7 +9,8 @@ _.fromPairs(pairs)
 ## 描述
 
 <!-- TODO toPairs -->
-与 [`_.toPairs`](/Object/toPairs) 正好相反；这个方法返回一个由键值对pairs构成的对象。
+<!-- 与 [`_.toPairs`](/Object/toPairs) 正好相反；这个方法返回一个由键值对pairs构成的对象。 -->
+与 `_.toPairs` 正好相反；这个方法返回一个由键值对pairs构成的对象。
 
 ## 参数
 
