@@ -16,7 +16,7 @@ _.differenceBy(array, [values], [iteratee=_.identity])
 | :-------------------: | :-------------------------------: | :----: | :------------: |
 |         array         |               Array               |   -    | 需要处理的数组 |
 |       [values]        |             ...Array              |   -    |   要排除的值   |
-| [iteratee=_.identity] | Array / Function /Object / string |   -    |     迭代器     |
+| [iteratee=_.identity] | Array / Function / Object / string |   -    |     迭代器     |
 
 ## 返回值
 

@@ -24,6 +24,10 @@ function genArrayMenu() {
         {
           text: 'differenceBy -- 过滤值',
           link: '/Array/differenceBy'
+        },
+        {
+          text: 'differenceWith -- 过滤值',
+          link: '/Array/differenceWith'
         }
       ]
     }
