@@ -4,6 +4,7 @@ function genArrayMenu() {
   return [
     {
       text: '数组操作',
+      collapsible: true,
       items: [
         {
           text: 'chunk -- 数组分块',
@@ -84,6 +85,10 @@ function genArrayMenu() {
         {
           text: 'indexOf -- 获取元素索引值',
           link: '/Array/indexOf'
+        },
+        {
+          text: 'initial -- 去除最后一个元素',
+          link: '/Array/initial'
         }
       ]
     }
@@ -94,6 +99,7 @@ function genCollectionMenu() {
   return [
     {
       text: '集合操作',
+      collapsible: true,
       items: [
         {
           text: 'countBy -- 获取迭代处理中 key 出现的次数',
