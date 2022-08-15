@@ -44,6 +44,10 @@ function genArrayMenu() {
         {
           text: 'dropWhile -- 根据条件删除开头的元素',
           link: '/Array/dropWhile'
+        },
+        {
+          text: 'fill -- 填充数组',
+          link: '/Array/fill'
         }
       ]
     }
