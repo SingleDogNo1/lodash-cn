@@ -28,6 +28,14 @@ function genArrayMenu() {
         {
           text: 'differenceWith -- 过滤值',
           link: '/Array/differenceWith'
+        },
+        {
+          text: 'drop -- 删除开头的元素',
+          link: '/Array/drop'
+        },
+        {
+          text: 'dropRight -- 删除末尾的元素',
+          link: '/Array/dropRight'
         }
       ]
     }
