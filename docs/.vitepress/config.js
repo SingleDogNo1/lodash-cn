@@ -48,6 +48,18 @@ function genArrayMenu() {
         {
           text: 'fill -- 填充数组',
           link: '/Array/fill'
+        },
+        {
+          text: 'findIndex -- 查找元素索引',
+          link: '/Array/findIndex'
+        },
+        {
+          text: 'findLastIndex -- 查找元素索引',
+          link: '/Array/findLastIndex'
+        },
+        {
+          text: 'first -> head -- 获取第一个元素',
+          link: '/Array/first'
         }
       ]
     }

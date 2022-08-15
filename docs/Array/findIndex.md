@@ -9,7 +9,7 @@ _.findIndex(array, [predicate=_.identity], [fromIndex=0])
 ## 描述
 
 <!-- TODO Collection/find -->
-这个方法l类似于[`_.find`](/Collection/find)，但是只是返回满足迭代器查询到第一次的索引值。
+这个方法l类似于[`_.find`](/Collection/find)，但是返回满足迭代器查询到第一次的索引值。
 
 ## 参数
 
@@ -17,7 +17,7 @@ _.findIndex(array, [predicate=_.identity], [fromIndex=0])
 | :-------: | :------: | :----: | :--------------: |
 |   array   |  Array   |   -    |  需要检索的数组  |
 | predicate | Function |   -    |      迭代器      |
-| fromIndex |  number  |   -    | 开始搜索的索引值 |
+| fromIndex |  number  |   0    | 开始搜索的索引值 |
 
 ## 返回值
 
@@ -27,23 +27,23 @@ _.findIndex(array, [predicate=_.identity], [fromIndex=0])
 
 ```js
 var users = [
-  { 'user': 'barney',  'active': false },
-  { 'user': 'fred',    'active': false },
-  { 'user': 'pebbles', 'active': true }
+  { name: '张三',  age: 20, alive: false },
+  { name: '李四',  age: 20, alive: false },
+  { name: '王五',  age: 30, alive: true },
 ];
 
-_.findIndex(users, function(o) { return o.user == 'barney'; });
+_.findIndex(users, function(o) { return o.age == 20; });
 // => 0
 
 // The `_.matches` iteratee shorthand.
-_.findIndex(users, { 'user': 'fred', 'active': false });
+_.findIndex(users, { name: '李四', age: 20 });
 // => 1
 
 // The `_.matchesProperty` iteratee shorthand.
-_.findIndex(users, ['active', false]);
+_.findIndex(users, ['age', 20]);
 // => 0
 
 // The `_.property` iteratee shorthand.
-_.findIndex(users, 'active');
+_.findIndex(users, 'alive');
 // => 2
 ```
