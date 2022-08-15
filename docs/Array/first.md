@@ -2,7 +2,6 @@
 
 ::: tip 语法
 
-_.head(array)
 _.first(array)
 
 :::
@@ -13,7 +12,7 @@ _.first(array)
 
 ## 别名
 
-`_.first`
+`_.head`
 
 ## 参数
 

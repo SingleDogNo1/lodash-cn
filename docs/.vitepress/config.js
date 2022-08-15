@@ -58,7 +58,7 @@ function genArrayMenu() {
           link: '/Array/findLastIndex'
         },
         {
-          text: 'first -> head -- 获取第一个元素',
+          text: 'first -- 获取第一个元素',
           link: '/Array/first'
         },
         {
@@ -76,6 +76,14 @@ function genArrayMenu() {
         {
           text: 'fromPairs -- 返回键值对对象',
           link: '/Array/fromPairs'
+        },
+        {
+          text: 'head -- 获取第一个元素',
+          link: '/Array/head'
+        },
+        {
+          text: 'indexOf -- 获取元素索引值',
+          link: '/Array/indexOf'
         }
       ]
     }

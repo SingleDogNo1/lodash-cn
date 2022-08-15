@@ -15,7 +15,7 @@ _.fromPairs(pairs)
 
 | 参数  | 类型  | 默认值 |     说明     |
 | :---: | :---: | :----: | :----------: |
-| array | Array |   -    | :键值对pairs |
+| array | Array |   -    | 键值对pairs |
 
 ## 返回值
 
