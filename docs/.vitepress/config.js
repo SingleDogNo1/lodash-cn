@@ -239,6 +239,18 @@ function genArrayMenu() {
         {
           text: 'uniqWith -- 数组去重',
           link: '/Array/uniqWith'
+        },
+        {
+          text: 'unzip -- 数组重组',
+          link: '/Array/unzip'
+        },
+        {
+          text: 'unzipWith -- 数组重组',
+          link: '/Array/unzipWith'
+        },
+        {
+          text: 'without -- 数组过滤',
+          link: '/Array/without'
         }
       ]
     }
