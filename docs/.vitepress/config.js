@@ -155,6 +155,38 @@ function genArrayMenu() {
         {
           text: 'remove -- 删除数组中的元素',
           link: '/Array/remove'
+        },
+        {
+          text: 'reverse -- 反转数组',
+          link: '/Array/reverse'
+        },
+        {
+          text: 'slice -- 截取数组',
+          link: '/Array/slice'
+        },
+        {
+          text: 'sortedIndex -- 获取索引值',
+          link: '/Array/sortedIndex'
+        },
+        {
+          text: 'sortedIndexBy -- 获取索引值',
+          link: '/Array/sortedIndexBy'
+        },
+        {
+          text: 'sortedIndexOf -- 获取索引值',
+          link: '/Array/sortedIndexOf'
+        },
+        {
+          text: 'sortedLastIndex -- 获取索引值',
+          link: '/Array/sortedLastIndex'
+        },
+        {
+          text: 'sortedLastIndexBy -- 获取索引值',
+          link: '/Array/sortedLastIndexBy'
+        },
+        {
+          text: 'sortedLastIndexOf -- 获取索引值',
+          link: '/Array/sortedLastIndexOf'
         }
       ]
     }

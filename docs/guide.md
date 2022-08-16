@@ -7,3 +7,5 @@ lodash是什么就不赘述了，总之在 jquery 不再辉煌，前端更注重
 + [lodash 英文官网](https://lodash.com/)
 + [lodash 中文解析版](https://lodash.shujuwajue.com/)。本文档对原文档的翻译有出入，但是对复杂的示例有详细讲解，且目录本身附带方法简介，主要对这两点进行了参考。
 + [lodash 中文文档](https://www.lodashjs.com/)。该文档翻译准确度更高，参照该文档书写了本文档的主要内容。
+
+文档几乎由我自己独立完成，工作量巨大，若发现错误，请指正。

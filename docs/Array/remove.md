@@ -41,7 +41,4 @@ console.log(array);
 
 console.log(evens);
 // => [2, 4]
-
-
-
 ```
