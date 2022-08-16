@@ -1,5 +1,19 @@
 // import { menu } from './helper'
 
+function genGuideMenu() {
+  return [
+    {
+      text: '写在前面',
+      items: [
+        {
+          text: '简介',
+          link: '/guide'
+        }
+      ]
+    }
+  ]
+}
+
 function genArrayMenu() {
   return [
     {
@@ -113,6 +127,34 @@ function genArrayMenu() {
         {
           text: 'lastIndexOf -- 获取元素索引值',
           link: '/Array/lastIndexOf'
+        },
+        {
+          text: 'nth -- 获取第 n 个元素',
+          link: '/Array/nth'
+        },
+        {
+          text: 'pull -- 删除数组中的元素',
+          link: '/Array/pull'
+        },
+        {
+          text: 'pullAll -- 删除数组中的元素',
+          link: '/Array/pullAll'
+        },
+        {
+          text: 'pullAllBy -- 删除数组中的元素',
+          link: '/Array/pullAllBy'
+        },
+        {
+          text: 'pullAllWith -- 删除数组中的元素',
+          link: '/Array/pullAllWith'
+        },
+        {
+          text: 'pullAt -- 删除数组中的元素',
+          link: '/Array/pullAt'
+        },
+        {
+          text: 'remove -- 删除数组中的元素',
+          link: '/Array/remove'
         }
       ]
     }
@@ -134,7 +176,8 @@ function genCollectionMenu() {
   ]
 }
 
-const menu = [...genArrayMenu(), ...genCollectionMenu()]
+const sidebar = [...genGuideMenu(), ...genArrayMenu(), ...genCollectionMenu()]
+const nav = [...genArrayMenu(), ...genCollectionMenu()]
 
 export default {
   outDir: '../dist',
@@ -153,10 +196,11 @@ export default {
     editLink: {
       pattern: 'https://github.com/lost-dream/lodash-cn/edit/main/docs/:path'
     },
-    nav: menu,
+    nav,
     sidebar: {
-      '/Array/': menu,
-      '/Collection/': menu
+      '/guide': sidebar,
+      '/Array/': sidebar,
+      '/Collection/': sidebar
     }
   }
 }
