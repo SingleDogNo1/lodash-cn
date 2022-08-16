@@ -187,6 +187,58 @@ function genArrayMenu() {
         {
           text: 'sortedLastIndexOf -- 获取索引值',
           link: '/Array/sortedLastIndexOf'
+        },
+        {
+          text: 'sortedUniq -- 数组去重',
+          link: '/Array/sortedUniq'
+        },
+        {
+          text: 'sortedUniqBy -- 数组去重',
+          link: '/Array/sortedUniqBy'
+        },
+        {
+          text: 'tail -- 截取数组',
+          link: '/Array/tail'
+        },
+        {
+          text: 'take -- 截取数组',
+          link: '/Array/take'
+        },
+        {
+          text: 'takeRight -- 截取数组',
+          link: '/Array/takeRight'
+        },
+        {
+          text: 'takeRightWhile -- 截取数组',
+          link: '/Array/takeRightWhile'
+        },
+        {
+          text: 'takeWhile -- 截取数组',
+          link: '/Array/takeWhile'
+        },
+        {
+          text: 'union -- 数组合并',
+          link: '/Array/union'
+        },
+        {
+          text: 'unionBy -- 数组合并',
+          link: '/Array/unionBy'
+        },
+        {
+          text: 'unionWith -- 数组合并',
+          link: '/Array/unionWith'
+        },
+        {
+          text: 'uniq -- 数组去重',
+          link: '/Array/uniq'
+        },
+        {
+          text: 'uniqBy -- 数组去重',
+          link: '/Array/uniqBy'
+        },
+        {
+          text: 'uniqWith -- 数组去重',
+          link: '/Array/uniqWith'
         }
       ]
     }
