@@ -251,6 +251,18 @@ function genArrayMenu() {
         {
           text: 'without -- 数组过滤',
           link: '/Array/without'
+        },
+        {
+          text: 'xor -- 数组取差集',
+          link: '/Array/xor'
+        },
+        {
+          text: 'xorBy -- 数组取差集',
+          link: '/Array/xorBy'
+        },
+        {
+          text: 'xorWith -- 数组取差集',
+          link: '/Array/xorWith'
         }
       ]
     }
