@@ -263,6 +263,22 @@ function genArrayMenu() {
         {
           text: 'xorWith -- 数组取差集',
           link: '/Array/xorWith'
+        },
+        {
+          text: 'zip -- 数组重组',
+          link: '/Array/zip'
+        },
+        {
+          text: 'zipObject -- 生成键值对对象',
+          link: '/Array/zipObject'
+        },
+        {
+          text: 'zipObjectDeep -- 生成键值对对象',
+          link: '/Array/zipObjectDeep'
+        },
+        {
+          text: 'zipWith -- 数组重组',
+          link: '/Array/zipWith'
         }
       ]
     }
