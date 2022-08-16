@@ -101,6 +101,18 @@ function genArrayMenu() {
         {
           text: 'intersectionWith -- 数组交集',
           link: '/Array/intersectionWith'
+        },
+        {
+          text: 'join -- 转字符串',
+          link: '/Array/join'
+        },
+        {
+          text: 'last -- 获取最后一个元素',
+          link: '/Array/last'
+        },
+        {
+          text: 'lastIndexOf -- 获取元素索引值',
+          link: '/Array/lastIndexOf'
         }
       ]
     }
