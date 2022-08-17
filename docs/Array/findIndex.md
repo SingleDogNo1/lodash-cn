@@ -8,9 +8,7 @@ _.findIndex(array, [predicate=_.identity], [fromIndex=0])
 
 ## 描述
 
-<!-- TODO Collection/find -->
-<!-- 这个方法l类似于[`_.find`](/Collection/find)，但是返回满足迭代器查询到第一次的索引值。 -->
-这个方法l类似于`_.find`，但是返回满足迭代器查询到第一次的索引值。
+这个方法l类似于[`_.find`](/Collection/find)，但是返回满足迭代器查询到第一次的索引值。
 
 ## 参数
 

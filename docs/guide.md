@@ -9,3 +9,19 @@ lodash是什么就不赘述了，总之在 jquery 不再辉煌，前端更注重
 + [lodash 中文文档](https://www.lodashjs.com/)。该文档翻译准确度更高，参照该文档书写了本文档的主要内容。
 
 文档几乎由我自己独立完成，工作量巨大，若发现错误，请指正。
+
+## 功能
+
+<Checkbox checked label="Array -- 数组操作" />
+<Checkbox checked label="Collection -- 集合操作" />
+<Checkbox label="Date -- 日期操作" />
+<Checkbox label="Function -- 操作函数" />
+<Checkbox label="Lang -- 类型转换与类型判断操作" />
+<Checkbox label="Math -- 数学操作" />
+<Checkbox label="Number -- 数值操作" />
+<Checkbox label="Object -- 对象操作" />
+<Checkbox label="Seq" />
+<Checkbox label="String -- 字符串操作" />
+<Checkbox label="Util -- 工具方法" />
+<Checkbox label="Properties -- 略，不常用" />
+<Checkbox label="Methods -- 略，不常用" />

@@ -11,9 +11,8 @@ _.remove(array, [predicate=_.identity])
 移除数组中predicate（断言）返回为真值的所有元素，并返回移除元素组成的数组。predicate（断言） 会传入3个参数： (value, index, array)。
 
 ::: warning 注意
-<!-- TODO Collection/filter -->
-<!-- 和[`_.filter`](/Collection/filter)方法不同，该方法会改变原数组。使用[`_.pull`](/Array/pull)来根据提供的value值从数组中移除元素。 -->
-和`_.filter`方法不同，该方法会改变原数组。使用[`_.pull`](/Array/pull)来根据提供的value值从数组中移除元素。
+
+和[`_.filter`](/Collection/filter)方法不同，该方法会改变原数组。使用[`_.pull`](/Array/pull)来根据提供的value值从数组中移除元素。
 
 :::
 
