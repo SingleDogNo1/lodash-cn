@@ -9,6 +9,8 @@
     "serve": "vitepress serve docs"
   },
   "devDependencies": {
+    "fast-glob": "^3.2.11",
+    "gray-matter": "^4.0.3",
     "vitepress": "^1.0.0-alpha.4",
     "vue": "^3.2.37"
   }

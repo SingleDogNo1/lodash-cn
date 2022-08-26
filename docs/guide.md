@@ -15,7 +15,7 @@ lodash是什么就不赘述了，总之在 jquery 不再辉煌，前端更注重
 <Checkbox checked label="Array -- 数组操作" />
 <Checkbox checked label="Collection -- 集合操作" />
 <Checkbox checked label="Date -- 日期操作" />
-<Checkbox label="Function -- 操作函数" />
+<Checkbox checked label="Function -- 操作函数" />
 <Checkbox label="Lang -- 类型转换与类型判断操作" />
 <Checkbox label="Math -- 数学操作" />
 <Checkbox label="Number -- 数值操作" />
