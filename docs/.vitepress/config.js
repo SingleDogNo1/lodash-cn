@@ -1,8 +1,10 @@
+import { defineConfig } from 'vitepress'
 import { genGuideMenu } from './guide'
 import { genArrayMenu } from './array'
 import { genCollectionMenu } from './collection'
 import { genDateMenu } from './date'
 import { genFunctionMenu } from './function'
+import { genLangMenu } from './lang'
 
 function genObjectMenu() {
   return [
@@ -25,11 +27,12 @@ const sidebar = [
   ...genCollectionMenu(),
   ...genDateMenu(),
   ...genFunctionMenu(),
-  ...genObjectMenu(),
+  ...genLangMenu(),
+  ...genObjectMenu()
 ]
 // const nav = [...genArrayMenu(), ...genCollectionMenu(), ...genObjectMenu()]
 
-export default {
+export default defineConfig({
   outDir: '../dist',
   title: 'Lodash',
   description: 'Lodash 中文文档',
@@ -53,7 +56,11 @@ export default {
       '/Collection/': sidebar,
       '/Date/': sidebar,
       '/Function/': sidebar,
-      '/Object/': sidebar
+      '/Object/': sidebar,
+      '/Lang/': sidebar
+    },
+    search: {
+      provider: 'local'
     }
   }
-}
+})
