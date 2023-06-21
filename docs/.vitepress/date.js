@@ -2,7 +2,6 @@ import { genMenus, NODE_ENV } from './helper'
 
 const titleDesc = {
   now: '获取时间戳',
-  compact: '过滤假值'
 }
 
 export function genDateMenu() {
